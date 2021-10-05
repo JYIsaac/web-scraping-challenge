@@ -68,7 +68,7 @@ def scrape():
     df
 
     # Convert table to html
-    mars_facts_table = [df.to_html(classes='data table table-borderless', index=False, header=False, border=0)]
+    mars_facts_table = df.to_html(classes='data table table-borderless', index=False, header=False, border=0)
     mars_facts_table
 
     # Open browswer to site
